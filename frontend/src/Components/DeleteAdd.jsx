@@ -9,22 +9,24 @@ class DeleteAdd extends React.Component{
             <div className='add-list'>
                 <p>Adds</p>
                 <table>
-                <tr>
+                <tbody>
+                    <tr>
                     <th >Advertisements</th>
                     <th>Action</th>
-                </tr>
-                <tr>
+                    </tr>
+                    <tr>
                     <td>Clothing</td>
                     <td><button className="delete">Delete</button></td>
-                </tr>
-                <tr>
+                    </tr>
+                    <tr>
                     <td>Books</td>
                     <td><button className="delete">Delete</button></td>
-                </tr>
-                <tr>
+                    </tr>
+                    <tr>
                     <td>Your Routines</td>
                     <td><button className="delete">Delete</button></td>
-                </tr>
+                    </tr>
+                </tbody>
             </table>
         
             </div>

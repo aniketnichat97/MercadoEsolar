@@ -8,8 +8,9 @@ class DeleteProduct extends React.Component{
             <>
             <div className='product-list'>
                 <p>Products</p>
-                <table>
-            
+                
+            <table>
+            <tbody>
             <tr>
                 <th >Products</th>
                 <th>Action</th>
@@ -26,7 +27,8 @@ class DeleteProduct extends React.Component{
                 <td>Kitchen Ware &nbsp $80</td>
                 <td><button className="delete">Delete</button></td>
             </tr>
-        </table>
+            </tbody>
+            </table>
         
             </div>
             
