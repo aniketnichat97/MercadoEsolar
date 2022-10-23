@@ -20,7 +20,7 @@ class addAdvertisement extends React.Component{
                     </div>
                     <div className='inputContainer'>
                         
-                        <input className='input-box' type='submit' value={submit}/>
+                        <input className='input-box' type='submit' value='submit'/>
                     </div>
 
 

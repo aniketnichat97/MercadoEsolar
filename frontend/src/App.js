@@ -2,6 +2,7 @@
 import './App.css';
 import Student from './Components/Student';
 import AddProduct from './Components/addProduct';
+import StudentProfile from './Components/studentProfile';
 
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
      <h1>
       home page
      </h1>
-     <Student />
-      <AddProduct />
+     {/* <Student/> */}
+     <StudentProfile />
+      {/* <AddProduct /> */}
     </div>
   );
 }
